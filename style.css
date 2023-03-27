@@ -1,0 +1,33 @@
+.bg-instagram{
+    background-color: #fff;
+}
+
+@media screen and (min-width:992px) {
+    .navbar .container-fluid, .navbar-expand-lg .navbar-collapse, .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: baseline;
+    }
+    .navbar{
+        width: 10%;
+        height: 100vh;
+        align-items: flex-start;
+    }
+
+    .logo{
+        width: 115px;
+        margin-top: 2em;
+        margin-left: .9em;
+        margin-bottom: 2em;
+    }
+
+    .icon{
+        width: 20px;
+        margin: .3em;
+    }
+
+    .profile-icon{
+        width: 25px;
+        margin: .1em;
+    }
+}
